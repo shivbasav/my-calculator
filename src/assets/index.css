@@ -1,0 +1,90 @@
+html * {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.calculator {
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 302px;
+  height: 462px;
+  padding: 25px;
+  box-sizing: ;
+  background-image: linear-gradient(#6faae2, #789cda);
+}
+
+.calculator-inputs-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #6eade4;
+}
+
+.operatorStyle {
+  font-weight: 100;
+  font-family: "open sans light", arial, sans-serif;
+}
+
+button.clear {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background: #f2f2f2;
+  border: 1px solid white;
+  color: #8bbbde;
+  border-radius: 50%;
+  box-shadow: 1px 4px 4px #9ad9f5;
+}
+
+button.calc-input {
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #8bbbde;
+  box-shadow: 1px 4px 4px #9ad9f5;
+}
+
+button.calc-input.zero {
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+button.calc-input.numeric {
+  background: #61c6f2;
+}
+
+button.calc-input.operator {
+  background: #61c6f2;
+  color: #ecf2ea;
+
+  box-sizing: border-box;
+  padding-bottom: 6px;
+}
+
+.calculator-results {
+  text-align: right;
+}
+
+.calculator-results div:first-child {
+  color: #61c6f2;
+  font-size: 40px;
+  height: 55px;
+}
+
+.calculator-results div:last-child {
+  color: #80bed8;
+  font-size: 30px;
+}
+
+.calculationDisplay,
+.resultDisplay {
+  overflow: hidden;
+  white-space: nowrap;
+}
